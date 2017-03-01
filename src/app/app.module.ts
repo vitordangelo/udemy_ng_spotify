@@ -11,6 +11,7 @@ import { SearchComponent } from './search/search.component';
 import { ArtistComponent } from './artist/artist.component';
 
 import { SearchService } from './search/search.service';
+import { AlbumComponent } from './album/album.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SearchService } from './search/search.service';
     NavbarComponent,
     AboutComponent,
     SearchComponent,
-    ArtistComponent
+    ArtistComponent,
+    AlbumComponent
   ],
   imports: [
     BrowserModule,
